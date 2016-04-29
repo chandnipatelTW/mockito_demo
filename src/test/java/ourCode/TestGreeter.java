@@ -24,9 +24,4 @@ public class TestGreeter {
       verifyStatic();
       StaticMethods.greet("Friend");
     }
-    
-    @Test
-    public void failingTest() {
-    	assertTrue(false);
-    }
 }
